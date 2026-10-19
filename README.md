@@ -36,6 +36,10 @@ The sound toggle and Easy / Normal / Hardcore difficulty selection are on the ti
 
 Details: [game.md](game.md).
 
+## Gameplay video
+
+[frog-at-dusk-gameplay.mp4](frog-at-dusk-gameplay.mp4) shows the game in action. The cycle timing and enemy spawning were shortened for this clip so everything fits in 20 seconds; the game itself uses the full timings (1 min daylight, 1 min sunset, 2 min night).
+
 ## AI tools used
 
 - **GitHub Copilot** (GPT models) wrote most of the later game systems and sourced the extra 3D models; **ChatGPT / Codex** built the first extension batches (day/night cycle, obstacles, pickups, HUD, progress tracking); **Claude** was used occasionally for help and documentation.
