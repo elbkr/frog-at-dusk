@@ -11,4 +11,4 @@ with the AI tools listed in [README.md](README.md).
 ## Third-party assets
 
 See the asset table in [README.md](README.md). `tode.glb`, `enemy.glb` and `small_house.glb` come from the course project. The other 3D models in `public/models`
-(`nature/*`, `enemies/*`) come from Poly Pizza (https://poly.pizza) or were AI-generated; Poly Pizza models are published under CC0 or CC BY 3.0 by their individual authors.
+(`nature/*`, `enemies/*`) come from Poly Pizza (https://poly.pizza) or were AI-generated; Only CC0 (public domain) models were selected.

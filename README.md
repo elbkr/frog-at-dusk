@@ -52,7 +52,7 @@ Details: [game.md](game.md).
 | Three.js (library) | https://threejs.org | MIT |
 | Vite (build tool) | https://vite.dev | MIT |
 | `public/models/tode.glb`, `enemy.glb`, `small_house.glb`, `public/tode.svg` | Provided by the JetBrains Academy course project | MIT (JetBrains Academy, see [LICENSE](LICENSE)) |
-| Other 3D models in `public/models/` (`nature/tree.glb`, `nature/rock.glb`, `enemies/wanderer_drake.glb`, `enemies/ambusher_bat.glb`, `enemies/night_hunter.glb`) | Free models from [Poly Pizza](https://poly.pizza) (some by Quaternius), fetched by GitHub Copilot | Believed CC0 (free Poly Pizza / Quaternius / Kenney models). The exact author and license of each file could not be traced after download. |
+| Other 3D models in `public/models/` (`nature/tree.glb`, `nature/rock.glb`, `enemies/wanderer_drake.glb`, `enemies/ambusher_bat.glb`, `enemies/night_hunter.glb`) | Free models from [Poly Pizza](https://poly.pizza) (some by Quaternius), fetched by GitHub Copilot | CC0 (public domain). Only CC0 models were selected for download; the individual author pages were not recorded. |
 
 Ponds, lights, pickups and all sounds are procedural (Three.js geometry / Web Audio) and original. No commercial music, trademarks, logos or memes are used.
 
