@@ -125,7 +125,7 @@ renderer.setAnimationLoop(() => {
       }
     }
     if (!isGameOver()) {
-      if (fullNightReward && elapsed >= DAY_CYCLE_DURATION && !nightBonusPaid) {
+      if (fullNightReward && elapsed >= getCycleDurations().total - 0.5 && !nightBonusPaid) {
         nightBonusPaid = true;
         addPoints(100);
       }

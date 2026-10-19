@@ -34,7 +34,7 @@ The sound toggle and Easy / Normal / Hardcore difficulty selection are on the ti
 - Easy / Normal / Hardcore modes
 - Responsive HUD, title and game-over screens; original Web Audio sound effects
 
-Details: [game.md](game.md), [PROGRESS.md](PROGRESS.md).
+Details: [game.md](game.md).
 
 ## AI tools used
 

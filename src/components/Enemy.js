@@ -86,11 +86,7 @@ function spawnEnemy(scene, point, type = 'chaser') {
   group.position.set(point.x, point.y, 0);
 
   scene.add(group);
-  const marker = new THREE.Mesh(new THREE.TorusGeometry(radius * 0.6, 2, 5, 16), new THREE.MeshBasicMaterial({ color: enemyProfiles[type].color, transparent: true, opacity: 0.7 }));
-  marker.rotation.x = Math.PI / 2;
-  marker.position.z = 2;
-  group.add(marker);
-  enemies.push({ group, model, position: group.position, radius: getFootprintRadius(model) || radius, type, marker, wander: Math.random() * Math.PI * 2, ambushReady: false });
+  enemies.push({ group, model, position: group.position, radius: getFootprintRadius(model) || radius, type, wander: Math.random() * Math.PI * 2, ambushReady: false });
 }
 
 function spawnAtRandomFreeCorner(scene, playerCollider, type) {
@@ -139,11 +135,6 @@ export function updateEnemies(scene, delta, playerCollider, nightMix = 0) {
     const { position } = enemy;
     const profile = enemyProfiles[enemy.type] || enemyProfiles.chaser;
     const distanceToPlayer = Math.hypot(target.x - position.x, target.y - position.y);
-    enemy.marker.material.opacity = enemy.type === 'ambusher' && distanceToPlayer < 260
-      ? 0.45 + Math.sin(performance.now() * 0.012) * 0.35
-      : enemy.type === 'seeker'
-        ? 0.35 + Math.sin(performance.now() * 0.004) * 0.15
-        : 0.7;
     if (enemy.type === 'ambusher') {
       if (distanceToPlayer > 260) continue;
       enemy.ambushReady = true;

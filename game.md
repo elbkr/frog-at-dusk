@@ -35,8 +35,8 @@ The difficulty is selected on the title screen before starting a run. The select
 
 - Chaser: the standard direct threat using the restored default enemy model.
 - Wanderer: circles its target instead of taking a direct line.
-- Ambusher: waits at range, then uses a faster burst when close. Its marker pulses as a warning.
-- Night seeker: hunts fireflies instead of immediately pursuing the frog. Its marker has a slower pulse.
+- Ambusher: waits at range, then uses a faster burst when close.
+- Night seeker: hunts fireflies instead of immediately pursuing the frog.
 
 The removed zombie/swarm enemy is not loaded or spawned.
 
@@ -66,7 +66,6 @@ The game-over screen shows score, fireflies, creatures defeated, houses visited,
 - Day, sunset, and night change the sky, fog, map palette, ambient light, directional light, pond glow, and lantern intensity.
 - Ability auras use distinct colors for shield, cloak, Moon Jump, and Pond Leap.
 - Attack hits use pooled burst particles.
-- Enemy markers communicate ambusher and seeker behavior.
 - Hit and win events have distinct Web Audio tones.
 - The game-over screen keeps the run card centered, with a challenge board on the left and the upgrade store on the right. Both side panels stack cleanly on mobile.
 
